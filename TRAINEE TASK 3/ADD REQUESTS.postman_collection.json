@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "1a6bfef5-f908-4116-87ac-a7713cff696e",
+		"name": "ADD REQUESTS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22877139"
+	},
+	"item": [
+		{
+			"name": "ADD POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Title\":\"asdf\", \"UserID\":1,\"Body\":\"Hello world\"}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.0.10:8000/addpost",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"10"
+					],
+					"port": "8000",
+					"path": [
+						"addpost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADD USER",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ADD COMMENT",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
